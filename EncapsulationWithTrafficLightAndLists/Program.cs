@@ -4,7 +4,8 @@ using EncapsulationWithTrafficLightAndLists.ListStuff;
 
 Console.OutputEncoding = Encoding.UTF8;
 
-/*
+/* Innkapsling - Encapsulation
+ *
  * Trafikklys
  * 1: Trafikklys uten OO
  * 2: Lage objekt, så vi kan håndtere flere verdier samlet
@@ -14,6 +15,7 @@ Console.OutputEncoding = Encoding.UTF8;
  *
  * Klasse for mer fleksible lister
  *  - nytt eksempel på OO og innkapsling
+ *  - gir forståelse av arrays 
  *  - gir forståelse av den innebyggede List<>
  *  - kort introduksjon til generics, "fra innsiden"
  * 6: Håndtere når en array er "full"
@@ -22,5 +24,5 @@ Console.OutputEncoding = Encoding.UTF8;
  */
 
 
-//TrafficLightDemo.Run();
+TrafficLightDemo.Run();
 //InflexibleArrayDemo.Run();

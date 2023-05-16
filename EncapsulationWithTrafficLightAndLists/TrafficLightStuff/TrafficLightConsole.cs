@@ -6,7 +6,6 @@ namespace EncapsulationWithTrafficLightAndLists.TrafficLightStuff
     {
         public static void Write(bool isRedOn, bool isYellowOn, bool isGreenOn)
         {
-            Console.Clear();
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.WriteLine("┏━┓");
             DrawLine(isRedOn ? ConsoleColor.Red : ConsoleColor.Gray);
