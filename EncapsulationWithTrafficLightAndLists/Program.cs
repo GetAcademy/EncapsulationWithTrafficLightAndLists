@@ -10,8 +10,12 @@ Console.OutputEncoding = Encoding.UTF8;
  * 1: Trafikklys uten OO
  * 2: Lage objekt, så vi kan håndtere flere verdier samlet
  * 3: Flytte funksjonalitet inn i klassen som metoder
+ *    - constructor
  * 4: Innkapsling
  * 5: Endre implementasjon og vise at koden utenfor er uendret
+ *    - properties
+ *
+ * static: klikker
  *
  * Klasse for mer fleksible lister
  *  - nytt eksempel på OO og innkapsling
@@ -22,7 +26,6 @@ Console.OutputEncoding = Encoding.UTF8;
  * 7: Trekke ut som klasse - enklere ved flere lister
  * 8: Innkapsling
  */
-
 
 TrafficLightDemo.Run();
 //InflexibleArrayDemo.Run();
