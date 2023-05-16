@@ -6,11 +6,12 @@
         {
             var clickerA = new Clicker("A");
             var clickerB = new Clicker("B");
-            clickerA.Click();
-            clickerA.Click();
-            clickerB.Click();
-            clickerA.Click();
-            clickerB.Click();
+            var clickerC = new Clicker("C");
+            clickerA.ClickAndShow();
+            clickerA.ClickAndShow();
+            clickerB.ClickAndShow();
+            clickerA.ClickAndShow();
+            clickerB.ClickAndShow();
         }
     }
 }

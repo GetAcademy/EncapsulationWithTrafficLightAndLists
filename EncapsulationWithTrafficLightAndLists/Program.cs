@@ -7,8 +7,6 @@ Console.OutputEncoding = Encoding.UTF8;
 
 /* Innkapsling - Encapsulation
  *
- * Pause til 11:05
- *
  * Trafikklys
  * 1: Trafikklys uten OO
  * 2: Lage objekt, så vi kan håndtere flere verdier samlet
