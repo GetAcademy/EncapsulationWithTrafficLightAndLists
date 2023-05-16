@@ -1,10 +1,13 @@
 ﻿using EncapsulationWithTrafficLightAndLists.TrafficLightStuff;
 using System.Text;
+using EncapsulationWithTrafficLightAndLists.ClickerStuff;
 using EncapsulationWithTrafficLightAndLists.ListStuff;
 
 Console.OutputEncoding = Encoding.UTF8;
 
 /* Innkapsling - Encapsulation
+ *
+ * Pause til 11:05
  *
  * Trafikklys
  * 1: Trafikklys uten OO
@@ -27,5 +30,6 @@ Console.OutputEncoding = Encoding.UTF8;
  * 8: Innkapsling
  */
 
-TrafficLightDemo.Run();
+ClickerDemo.Run();
+//TrafficLightDemo.Run();
 //InflexibleArrayDemo.Run();
