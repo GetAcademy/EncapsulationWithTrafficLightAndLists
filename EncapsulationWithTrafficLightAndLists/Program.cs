@@ -5,7 +5,9 @@ using EncapsulationWithTrafficLightAndLists.ListStuff;
 
 Console.OutputEncoding = Encoding.UTF8;
 
-/* Innkapsling - Encapsulation
+/* 
+ *
+ * Innkapsling - Encapsulation
  *
  * Trafikklys
  * 1: Trafikklys uten OO

@@ -17,7 +17,6 @@
             trafficLight.GoToNextPhase();
             trafficLight.Show();
 
-
             // Refactoring
             // 1. variabel
             // 2. funksjon/metode
