@@ -6,7 +6,6 @@ using EncapsulationWithTrafficLightAndLists.ListStuff;
 Console.OutputEncoding = Encoding.UTF8;
 
 /* 
- *
  * Innkapsling - Encapsulation
  *
  * Trafikklys
@@ -27,9 +26,9 @@ Console.OutputEncoding = Encoding.UTF8;
  *  - kort introduksjon til generics, "fra innsiden"
  * 6: Håndtere når en array er "full"
  * 7: Trekke ut som klasse - enklere ved flere lister
- * 8: Innkapsling
+ * 8: Kort om List<> og LINQ
  */
 
-ClickerDemo.Run();
+//ClickerDemo.Run();
 //TrafficLightDemo.Run();
-//InflexibleArrayDemo.Run();
+InflexibleArrayDemo.Run();

@@ -16,6 +16,7 @@
             trafficLight.Show();
             trafficLight.GoToNextPhase();
             trafficLight.Show();
+            var trafficLightIsGreen = trafficLight.IsGreen;
 
             // Refactoring
             // 1. variabel
