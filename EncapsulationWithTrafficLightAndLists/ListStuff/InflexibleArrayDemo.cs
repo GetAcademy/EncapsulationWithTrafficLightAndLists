@@ -3,17 +3,34 @@
     internal class InflexibleArrayDemo
     {
         /*
-            Pause til 11:07
          */
         public static void Run()
         {
-            var myFlexibleList = new MyFlexibleList();
+
+            var list = new List<string>();
+            while (true)
+            {
+                var text = Console.ReadLine();
+                list.Add(text);
+                Console.WriteLine(string.Join(',', list));
+            }
+
+
+            var myFlexibleList = new MyFlexibleList<string>();
+            while (true)
+            {
+                var text = Console.ReadLine();
+                myFlexibleList.Add(text);
+                myFlexibleList.Show();
+            }
+
+            var myFlexibleList2 = new MyFlexibleList<int>();
             while (true)
             {
                 var numberStr = Console.ReadLine();
                 var number = Convert.ToInt32(numberStr);
-                myFlexibleList.Add(number);
-                myFlexibleList.Show();
+                myFlexibleList2.Add(number);
+                myFlexibleList2.Show();
             }
             //var numbers = new int[4];
             //var count = 0;

@@ -1,26 +1,26 @@
 ﻿namespace EncapsulationWithTrafficLightAndLists.ListStuff
 {
-    internal class MyFlexibleList<T>
+    internal class MyFlexibleStringList
     {
-        private T[] _numbers;
+        private string[] _numbers;
         private int _count;
 
-        public MyFlexibleList()
+        public MyFlexibleStringList()
         {
-            _numbers = new T[4];
+            _numbers = new string[4];
         }
 
-        public void Add(T number)
+        public void Add(string text)
         {
             var index = _count;
             if (index >= _numbers.Length)
             {
                 Console.WriteLine("Lager ny array");
-                var newNumbers = new T[_numbers.Length * 2];
+                var newNumbers = new string[_numbers.Length * 2];
                 Array.Copy(_numbers, newNumbers, _numbers.Length);
                 _numbers = newNumbers;
             }
-            _numbers[index] = number;
+            _numbers[index] = text;
             _count++;
         }
 

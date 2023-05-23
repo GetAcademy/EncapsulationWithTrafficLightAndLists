@@ -26,7 +26,7 @@ Console.OutputEncoding = Encoding.UTF8;
  *  - kort introduksjon til generics, "fra innsiden"
  * 6: Håndtere når en array er "full"
  * 7: Trekke ut som klasse - enklere ved flere lister
- * 8: Kort om List<> og LINQ
+ * 8: Kort om List<>
  */
 
 //ClickerDemo.Run();
